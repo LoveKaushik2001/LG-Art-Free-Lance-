@@ -1,0 +1,17 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+/* Global CSS variables */
+:root {
+  --beige: #f5f5dc;
+  --off-white: #faf9f6;
+  --highlight-color: #d4b88d;
+  --cta-color: #d4b88d;
+  --cta-hover-color: #e1c699;
+  --blue-tint: #a7c7e7; /* Soft blue tint */
+}
+
+/* Global styling for body */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: var(--off-white);
+}
