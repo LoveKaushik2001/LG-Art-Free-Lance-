@@ -1,17 +1,25 @@
 @import "@fortawesome/fontawesome-free/css/all.css";
 
 /* Global CSS variables */
+/* Root Color Variables */
 :root {
-  --beige: #f5f5dc;
-  --off-white: #faf9f6;
+  /* beige */
+  --secondary-background: #f5f5dc;
+  /* off-white */
+  --primary-background: #faf9f6;
+  --heading-color: #d4b88d;
+  --text-color: #333;
+  --hover-color: #9e7c56;
   --highlight-color: #d4b88d;
+  --highlight-color-dark: #b38d5d;
   --cta-color: #d4b88d;
+  --cta-text-color: #faf9f6;
   --cta-hover-color: #e1c699;
-  --blue-tint: #a7c7e7; /* Soft blue tint */
+  --form-input-border-color: #333;
 }
 
 /* Global styling for body */
 body {
   font-family: "Arial", sans-serif;
-  background-color: var(--off-white);
+  background-color: var(--primary-background);
 }

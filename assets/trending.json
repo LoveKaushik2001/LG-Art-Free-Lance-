@@ -1,0 +1,34 @@
+[
+  {
+    "id": "1",
+    "displayProductId": "prod1",
+    "category": "Wedding card preservation",
+    "image": "/images/preservation/aqua-wed-card.jpg",
+    "alt": "wedding-card-preservation",
+    "title": "Aqua Wedding Card"
+  },
+  {
+    "id": "1",
+    "displayProductId": "prod2",
+    "category": "Wedding card preservation",
+    "image": "/images/preservation/pink-wed-card.jpg",
+    "alt": "wedding-card-preservation",
+    "title": "Pink Wedding Card"
+  },
+  {
+    "id": "2",
+    "displayProductId": "prod1",
+    "category": "Hand Made Paintings",
+    "image": "/images/paintings/holy-cow.png",
+    "alt": "holy-cow-painting",
+    "title": "Holy Cow painting"
+  },
+  {
+    "id": "3",
+    "displayProductId": "prod1",
+    "category": "Art Pieces",
+    "image": "/images/artPieces/guruji-car-hanging.jpeg",
+    "alt": "guru ji car hanging",
+    "title": "Guru ji Car hanging"
+  }
+]

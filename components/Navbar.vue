@@ -3,7 +3,7 @@
         <nav class="navbar">
             <!-- Logo -->
             <div class="navbar-brand">
-                <NuxtLink to="/" class="logo">Lakshya Gora Art</NuxtLink>
+                <NuxtLink to="/" class="logo">Art By Lakshya</NuxtLink>
             </div>
 
             <!-- Toggle Button for Mobile View -->
@@ -54,7 +54,7 @@ export default {
 }
 
 .navbar {
-    background: linear-gradient(135deg, var(--beige) 40%, var(--off-white) 60%);
+    background: linear-gradient(135deg, var(--secondary-background) 40%, var(--primary-background) 60%);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
@@ -71,15 +71,6 @@ export default {
     z-index: 20;
     /* Makes sure it stays above the content */
     transition: background 0.3s ease;
-}
-
-/* Add your off-white and beige colors as CSS variables */
-:root {
-    --off-white: #f7f7f7;
-    --beige: #f0e5d8;
-    --highlight-color: #BB8C72;
-    --text-color: #1C1210;
-    --hover-color: #9e7c56;
 }
 
 /* Logo Styling */
@@ -204,7 +195,7 @@ export default {
         height: 100%;
         width: 80%;
         max-width: 350px;
-        background-color: var(--beige);
+        background-color: var(--secondary-background);
         padding-top: 6rem;
         gap: 2rem;
         transform: translateX(100%);

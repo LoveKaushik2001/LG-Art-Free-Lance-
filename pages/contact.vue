@@ -44,6 +44,8 @@
 </template>
 
 <script>
+import emailjs from 'emailjs-com'; // Import EmailJS SDK
+
 export default {
     name: 'LeaveCommentSection',
     data() {
@@ -58,9 +60,29 @@ export default {
     },
     methods: {
         submitForm() {
-            // Handle form submission (add your form logic here)
-            alert('Form submitted!');
-            this.resetForm();
+            // Call EmailJS service to send the form data
+            const serviceID = 'service_wpj7f78';
+            const templateID = 'your_template_id';
+            const userID = 'your_user_id'; // Replace with your EmailJS User ID
+
+            const templateParams = {
+                from_name: this.form.name,
+                from_email: this.form.email,
+                message: this.form.message,
+                whatsapp: this.form.whatsapp || 'Not Provided',
+            };
+
+            // Send email using EmailJS
+            emailjs.send(serviceID, templateID, templateParams, userID)
+                .then((response) => {
+                    console.log('Email sent successfully!', response);
+                    this.resetForm();
+                    alert('Your message has been sent!');
+                })
+                .catch((error) => {
+                    console.error('Error sending email:', error);
+                    alert('There was an error sending your message. Please try again later.');
+                });
         },
         resetForm() {
             this.form.name = '';
@@ -72,10 +94,11 @@ export default {
 }
 </script>
 
+
 <style scoped>
 /* Leave Comment Section Styles */
 .leave-comment {
-    background-color: var(--off-white);
+    background-color: var(--primary-background);
     padding: 6rem 2rem;
     text-align: center;
 }
@@ -88,7 +111,7 @@ export default {
 .leave-comment h2 {
     font-size: 2.8rem;
     font-weight: bold;
-    color: var(--highlight-color);
+    color: var(--heading-color);
     margin-bottom: 1rem;
 }
 
@@ -122,10 +145,10 @@ export default {
 .form-group textarea {
     padding: 0.8rem;
     font-size: 1rem;
-    border: 1px solid var(--text-color);
+    border: 1px solid var(--form-input-border-color);
     border-radius: 8px;
     outline: none;
-    background-color: var(--off-white);
+    background-color: var(--primary-background);
     color: var(--text-color);
 }
 
@@ -142,7 +165,7 @@ export default {
 .cta-button {
     background-color: var(--cta-color);
     padding: 1rem 2rem;
-    color: var(--off-white);
+    color: var(--cta-text-color);
     font-size: 1.1rem;
     text-decoration: none;
     border-radius: 30px;
@@ -158,7 +181,7 @@ export default {
 .direct-contact-options {
     margin-top: 3rem;
     padding: 2rem;
-    background-color: var(--beige);
+    background-color: var(--secondary-background);
     border-radius: 8px;
 }
 
@@ -177,7 +200,7 @@ export default {
 .contact-buttons a {
     padding: 1rem 2rem;
     background-color: var(--cta-color);
-    color: var(--off-white);
+    color: var(--primary-background);
     font-size: 1.1rem;
     text-decoration: none;
     border-radius: 30px;

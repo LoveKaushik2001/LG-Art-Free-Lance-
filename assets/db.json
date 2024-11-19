@@ -1,0 +1,71 @@
+[
+  {
+    "id": "1",
+    "category": "Wedding card preservation",
+    "mainTitle": "See more kinds of wedding preservation",
+    "thumbnailImage": "/images/preservation/aqua-wed-card.jpg",
+    "displayProductId": "prod1",
+    "products": [
+      {
+        "productId": "prod1",
+        "productName": "Aqua wedding card",
+        "description": "This is a wedding preservation card with aqua themed flowers",
+        "price": "Rs. 999",
+        "productImage": "/images/preservation/aqua-wed-card.jpg"
+      },
+      {
+        "productId": "prod2",
+        "productName": "Pink wedding card",
+        "description": "This is a wedding preservation card with pink themed flowers",
+        "price": "Rs. 799",
+        "productImage": "/images/preservation/pink-wed-card.jpg"
+      },
+      {
+        "productId": "prod3",
+        "productName": "Round wedding card",
+        "description": "This is a unique kind of wedding preservation card with red and round themed flowers",
+        "price": "Rs. 1299",
+        "productImage": "/images/preservation/round-wed-card.jpg"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "category": "Hand Made Paintings",
+    "mainTitle": "Get your hand made paintings",
+    "thumbnailImage": "/images/paintings/holy-cow.png",
+    "displayProductId": "prod1",
+    "products": [
+      {
+        "productId": "prod1",
+        "productName": "Holy cow painting",
+        "description": "This is hand made water colored painting",
+        "price": "Rs. 2999",
+        "productImage": "/images/paintings/holy-cow.png"
+      },
+      {
+        "productId": "prod2",
+        "productName": "Shree krishan ji hand made painting",
+        "description": "This is a hand made painting of shree krishan ji. This painting will bring devotion in your heart. (Measurement: 220 X 420)",
+        "price": "Rs. 4799",
+        "productImage": "/images/paintings/shree-krishan.png"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "category": "Art Pieces",
+    "mainTitle": "Create customized gifts for your loved ones",
+    "thumbnailImage": "/images/artPieces/guruji-car-hanging.jpeg",
+    "displayProductId": "prod1",
+    "products": [
+      {
+        "productId": "prod1",
+        "productName": "Guru ji Car hanging",
+        "description": "This is Guru ji car hanging",
+        "price": "Rs. 70",
+        "productImage": "/images/artPieces/guruji-car-hanging.jpeg"
+      }
+    ]
+  }
+]

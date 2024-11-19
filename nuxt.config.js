@@ -21,6 +21,7 @@ export default {
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
+  pages: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [],
@@ -30,4 +31,14 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  router: {
+    extendRoutes(routes, resolve) {
+      routes.push({
+        name: "gallery-id-prodId",
+        path: "/gallery/:id/:prodId",
+        component: resolve(__dirname, "pages/gallery/[id]/[prodId].vue"),
+      });
+      console.log("Generated Routes:", routes);
+    },
+  },
 };

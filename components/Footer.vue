@@ -43,7 +43,7 @@
         <!-- Footer Bottom: Contact Info and Copyright -->
         <div class="footer-bottom">
             <div class="footer-contact">
-                <p>Email: <a href="mailto:lakshya@example.com">lakshya@example.com</a></p>
+                <p>Email: <a href="mailto:Lakshyagora412@gmail.com">Lakshyagora412@gmail.com</a></p>
                 <p>Phone: <a href="tel:+918826190095">+918826190095</a></p>
             </div>
             <p>&copy; 2024 Lakshya Gora Art. All Rights Reserved.</p>
@@ -60,7 +60,7 @@ export default {
 <style scoped>
 /* Footer Styles */
 .footer {
-    background-color: var(--beige);
+    background-color: var(--secondary-background);
     color: var(--text-color);
     padding: 3rem 1.5rem;
     text-align: center;

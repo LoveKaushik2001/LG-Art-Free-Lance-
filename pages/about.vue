@@ -24,7 +24,7 @@
                 </p>
             </div>
             <div class="about-image">
-                <img src="https://via.placeholder.com/400x400?text=Artist+Image" alt="Lakshya Gora" />
+                <img src="/images/profilePic.jpg" alt="Lakshya Gora" />
             </div>
         </div>
         <NuxtLink to="/gallery" class="cta-button">Explore the Gallery</NuxtLink>
@@ -40,7 +40,7 @@ export default {
 <style scoped>
 /* About Section Styles */
 .about {
-    background-color: var(--off-white);
+    background-color: var(--primary-background);
     padding: 6rem 2rem;
     text-align: center;
 }
@@ -61,7 +61,7 @@ export default {
 .about-text h2 {
     font-size: 2.8rem;
     font-weight: bold;
-    color: var(--highlight-color);
+    color: var(--heading-color);
     margin-bottom: 1.5rem;
 }
 
@@ -84,7 +84,7 @@ export default {
 .cta-button {
     background-color: var(--cta-color);
     padding: 0.8rem 2rem;
-    color: var(--off-white);
+    color: var(--cta-text-color);
     font-size: 1.1rem;
     text-decoration: none;
     border-radius: 30px;
