@@ -16,7 +16,7 @@
         </div>
 
         <!-- Similar Items Section -->
-        <div class="similar-items">
+        <div class="similar-items" v-if="similarItems.length">
             <h2>See Similar Items</h2>
             <div class="similar-grid">
                 <div class="similar-item" v-for="item in similarItems" :key="item.productId"
