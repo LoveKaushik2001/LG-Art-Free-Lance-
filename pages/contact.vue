@@ -61,9 +61,10 @@ export default {
     methods: {
         submitForm() {
             // Call EmailJS service to send the form data
-            const serviceID = 'service_wpj7f78';
+            // const serviceID = 'service_wpj7f78';
+            const serviceID = 'gmail';
             const templateID = 'your_template_id';
-            const userID = 'your_user_id'; // Replace with your EmailJS User ID
+            const userID = '1IqNR3RqDx9DxsAN3'; // Replace with your EmailJS User ID
 
             const templateParams = {
                 from_name: this.form.name,

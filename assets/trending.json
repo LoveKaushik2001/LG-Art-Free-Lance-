@@ -2,33 +2,33 @@
   {
     "id": "1",
     "displayProductId": "prod1",
-    "category": "Wedding card preservation",
-    "image": "/images/preservation/aqua-wed-card.jpg",
-    "alt": "wedding-card-preservation",
-    "title": "Aqua Wedding Card"
-  },
-  {
-    "id": "1",
-    "displayProductId": "prod2",
-    "category": "Wedding card preservation",
-    "image": "/images/preservation/pink-wed-card.jpg",
-    "alt": "wedding-card-preservation",
-    "title": "Pink Wedding Card"
+    "category": "Wedding Invites",
+    "image": "/images/wedCard/pink-wed-card.jpg",
+    "alt": "wedding-card-wedCard",
+    "title": "Resin Invitation Cards"
   },
   {
     "id": "2",
     "displayProductId": "prod1",
-    "category": "Hand Made Paintings",
-    "image": "/images/paintings/holy-cow.png",
-    "alt": "holy-cow-painting",
-    "title": "Holy Cow painting"
+    "category": "Kaleere and chooda",
+    "image": "/images/kaleere/kaleere-1.jpg",
+    "alt": "Kaleere Preservation",
+    "title": "Kaleere Preservation"
   },
   {
     "id": "3",
     "displayProductId": "prod1",
-    "category": "Art Pieces",
-    "image": "/images/artPieces/guruji-car-hanging.jpeg",
-    "alt": "guru ji car hanging",
-    "title": "Guru ji Car hanging"
+    "category": "Resin Baby Keepsake",
+    "image": "/images/babyKeepsake/blue-round-keepsake.jpg",
+    "alt": "baby keepsake",
+    "title": "Resin Baby Keepsake"
+  },
+  {
+    "id": "4",
+    "displayProductId": "prod1",
+    "category": "Deep Casting Frames",
+    "image": "/images/deepCasting/frame-1.jpg",
+    "alt": "Deep Casting Frame",
+    "title": "Deep Casting Frames"
   }
 ]
