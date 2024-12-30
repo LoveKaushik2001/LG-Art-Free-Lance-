@@ -2,7 +2,7 @@
     <section class="about">
         <div class="about-content">
             <div class="about-text">
-                <h2>About Lakshya Gora</h2>
+                <h2>About Lakshya</h2>
                 <p>
                     Lakshya Gora is a talented mixed media artist whose work explores the dynamic fusion of resin and
                     painting.

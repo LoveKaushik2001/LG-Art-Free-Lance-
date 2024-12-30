@@ -11,49 +11,58 @@
         "productName": "3D Flower Invitation Card (Pink Variant)",
         "description": "Size: 12 X 9 inches (Agate: Zig-Zag)",
         "price": "Rs. 3900",
-        "productImage": "/images/wedCard/pink-wed-card.jpg"
+        "productImage": ["/images/wedCard/pink-wed-card.jpg"]
       },
       {
         "productId": "prod2",
         "productName": "3D Flower Invitation Card (Aqua Variant)",
         "description": "Size: 12 X 9 inches (Agate: Zig-Zag)",
         "price": "Rs. 3900",
-        "productImage": "/images/wedCard/aqua-wed-card.jpg"
+        "productImage": ["/images/wedCard/aqua-wed-card.jpg"]
       },
       {
         "productId": "prod3",
         "productName": "3D Flower Invitation Card (Red Variant)",
         "description": "Size: 12 X 9 inches (Agate: Zig-Zag)",
         "price": "Rs. 3900",
-        "productImage": "/images/wedCard/red-wed-card.jpg"
+        "productImage": ["/images/wedCard/red-wed-card.jpg"]
       },
       {
         "productId": "prod4",
         "productName": "3D Flower Invitation Card (Natural Look Variant)",
         "description": "Size: 12 X 9 inches (Agate: Zig-Zag)",
         "price": "Rs. 3600",
-        "productImage": "/images/wedCard/natural-wed-card.jpg"
+        "productImage": [
+          "/images/wedCard/natural-wed-card.jpg",
+          "/images/wedCard/natural-wed-card-2.heic",
+          "/images/wedCard/natural-wed-card-3.heic"
+        ]
       },
       {
         "productId": "prod5",
         "productName": "Natural Flower Invitation Card (White Look Variant)",
         "description": "Size: 12 X 9 inches (Agate: Zig-Zag)",
         "price": "Rs. 3600",
-        "productImage": "/images/wedCard/white-wed-card.jpg"
+        "productImage": ["/images/wedCard/white-wed-card.jpg"]
       },
       {
         "productId": "prod6",
         "productName": "Natural Flower Invitation Card (Blue Look Variant)",
         "description": "Size: 12X9 inches (Agate: Zig-Zag)",
         "price": "Rs. 3600",
-        "productImage": "/images/wedCard/blue-wed-card.jpg"
+        "productImage": [
+          "/images/wedCard/blue-wed-card.jpg",
+          "/images/wedCard/blue-wed-card-2.jpg",
+          "/images/wedCard/blue-wed-card-3.jpg",
+          "/images/wedCard/blue-wed-card-4.jpg"
+        ]
       },
       {
         "productId": "prod7",
         "productName": "Golden Stone Invitation Card (Vintage Look Variant)",
         "description": "Size: 12 X 9 inches (Agate: Zig-Zag)",
         "price": "Rs. 3700",
-        "productImage": "/images/wedCard/vintage-wed-card.jpg"
+        "productImage": ["/images/wedCard/vintage-wed-card.jpg"]
       }
     ]
   },
@@ -69,7 +78,7 @@
         "productName": "Kaleere and chooda Preservation",
         "description": "Size: 12 X 12 inches (Material: TeakWood)",
         "price": "Rs. 5000",
-        "productImage": "/images/kaleere/kaleere-1.jpg"
+        "productImage": ["/images/kaleere/kaleere-1.jpg"]
       },
       {
         "productId": "prod2",
@@ -120,7 +129,10 @@
         "productName": "Pregnancy Kit and umbilical cord preservation (Heart Shaped)",
         "description": "Size: 8 inch heart",
         "price": "Rs. 3000",
-        "productImage": "/images/babyKeepsake/pink-heart-keepsake.heic"
+        "productImage": [
+          "/images/babyKeepsake/pink-heart-keepsake.heic",
+          "/images/babyKeepsake/pink-heart-keepsake-2.heic"
+        ]
       },
       {
         "productId": "prod3",
@@ -157,28 +169,43 @@
         "productName": "Varmala Preservation",
         "description": "Size: 8 inch (Sharp Corner Square)",
         "price": "Rs. 4000",
-        "productImage": "/images/deepCasting/frame-3.heic"
+        "productImage": [
+          "/images/deepCasting/frame-3.heic",
+          "/images/deepCasting/frame-3-2.heic",
+          "/images/deepCasting/frame-3-3.heic"
+        ]
       },
       {
         "productId": "prod4",
         "productName": "Varmala Preservation",
         "description": "Size: 6 X 9 inch",
         "price": "Rs. 4000",
-        "productImage": "/images/deepCasting/frame-4.heic"
+        "productImage": [
+          "/images/deepCasting/frame-4.heic",
+          "/images/deepCasting/frame-4-2.heic",
+          "/images/deepCasting/frame-4-3.heic"
+        ]
       },
       {
         "productId": "prod5",
         "productName": "Varmala Preservation",
         "description": "Size: 8 inch circle",
         "price": "Rs. 4000",
-        "productImage": "/images/deepCasting/frame-5.heic"
+        "productImage": [
+          "/images/deepCasting/frame-5.heic",
+          "/images/deepCasting/frame-5-2.heic"
+        ]
       },
       {
         "productId": "prod6",
         "productName": "Varmala Preservation",
         "description": "Size: 8 inch circle",
         "price": "Rs. 4000",
-        "productImage": "/images/deepCasting/frame-6.jpg"
+        "productImage": [
+          "/images/deepCasting/frame-6.jpg",
+          "/images/deepCasting/frame-6-2.jpg",
+          "/images/deepCasting/frame-6-3.jpg"
+        ]
       },
       {
         "productId": "prod7",

@@ -3,7 +3,7 @@
         <div class="footer-content">
             <!-- Left Side: Brand Name or Logo -->
             <div class="footer-left">
-                <h3>Lakshya Gora Art</h3>
+                <h3>Lakshya Art</h3>
                 <p>Bringing resin and paint together in beautiful harmony.</p>
             </div>
 
