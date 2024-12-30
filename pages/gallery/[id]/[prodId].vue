@@ -3,8 +3,27 @@
         <!-- Product Details Section -->
         <div class="pdp-container">
             <div class="product-image">
-                <img :src="product.productImage" alt="Product Image" />
+                <!-- Image container with horizontal scroll -->
+                <div class="image-slider" :style="{ transform: `translateX(-${currentIndex * 100}%)` }">
+                    <!-- Each image inside the slider -->
+                    <template v-for="(image, index) in images">
+                        <div class="carousel-item">
+                            <img :src="image" alt="Product Image" />
+                        </div>
+                    </template>
+                </div>
+
+                <!-- Carousel controls (Prev and Next buttons) -->
+                <button class="carousel-control-prev" @click="goToPrevImage" v-if="images.length > 1">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">&laquo;</span>
+                </button>
+                <button class="carousel-control-next" @click="goToNextImage" v-if="images.length > 1">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">&raquo;</span>
+                </button>
             </div>
+
             <div class="product-details">
                 <h1>{{ product.productName }}</h1>
                 <p>{{ product.description }}</p>
@@ -22,7 +41,8 @@
                 <div class="similar-item" v-for="item in similarItems" :key="item.productId"
                     @click="updatePDP(item.productId)">
                     <div class="similar-item-card">
-                        <img :src="item.productImage" alt="Similar Product Image" />
+                        <img :src="Array.isArray(item.productImage) ? item.productImage[0] : item.productImage"
+                            alt="Similar Product Image" />
                         <div class="item-info">
                             <h3>{{ item.productName }}</h3>
                             <p>View detail</p>
@@ -41,7 +61,9 @@ export default {
         return {
             category: {},
             product: {},
-            similarItems: []
+            similarItems: [],
+            images: [],
+            currentIndex: 0
         };
     },
     async mounted() {
@@ -56,6 +78,9 @@ export default {
         this.similarItems = this.category.products.filter(
             (item) => item.productId !== prodId
         );
+        this.images = Array.isArray(this.product.productImage)
+            ? this.product.productImage
+            : [this.product.productImage];
     },
     methods: {
         updatePDP(newId) {
@@ -66,10 +91,24 @@ export default {
             this.$router.push(`/gallery/${this.category.id}/${this.product.productId}`);
         },
         redirectToWhatsApp() {
-            const message = `Hi, I would like to buy the ${this.product.productName}.`;  // Pre-written message
-            const encodedMessage = encodeURIComponent(message); // URL encode the message
+            const message = `Hi, I would like to buy the ${this.product.productName}.`;
+            const encodedMessage = encodeURIComponent(message);
             const url = `https://wa.me/+918826190095?text=${encodedMessage}`;
-            window.open(url, "_blank"); // Open WhatsApp in a new tab
+            window.open(url, "_blank");
+        },
+        goToPrevImage() {
+            if (this.currentIndex === 0) {
+                this.currentIndex = this.images.length - 1;
+            } else {
+                this.currentIndex--;
+            }
+        },
+        goToNextImage() {
+            if (this.currentIndex === this.images.length - 1) {
+                this.currentIndex = 0;
+            } else {
+                this.currentIndex++;
+            }
         }
     }
 };
@@ -93,9 +132,26 @@ export default {
     flex-wrap: wrap;
 }
 
-.product-image img {
+.product-image {
+    position: relative;
     width: 100%;
     max-width: 500px;
+    overflow: hidden;
+}
+
+.image-slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.carousel-item {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.product-image img {
+    width: 100%;
     border-radius: 15px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
@@ -105,9 +161,46 @@ export default {
     transform: scale(1.05);
 }
 
+/* Carousel Control Button Styles */
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.carousel-control-prev {
+    left: 10px;
+}
+
+.carousel-control-next {
+    right: 10px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    font-size: 1.5rem;
+}
+
 .whatsapp-btn {
     background-color: var(--highlight-color);
-    /* Match the main color theme */
     color: white;
     border: none;
     padding: 1rem 2rem;
@@ -120,7 +213,6 @@ export default {
 
 .whatsapp-btn:hover {
     background-color: var(--highlight-color-dark);
-    /* Darker shade for hover */
 }
 
 .product-details {
@@ -215,17 +307,15 @@ export default {
     transform: translateX(5px);
 }
 
+/* Responsive adjustments */
 @media (max-width: 768px) {
     .pdp-container {
         flex-direction: column;
         align-items: center;
     }
 
-    .product-image img {
+    .product-image {
         max-width: 90%;
-        /* Make image occupy more space */
-        height: auto;
-        /* Allow the height to adjust based on aspect ratio */
     }
 
     .product-details h1 {
@@ -242,6 +332,18 @@ export default {
 
     .similar-grid {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        font-size: 1.5rem;
+        width: 35px;
+        height: 35px;
+    }
+
+    .product-image img {
+        max-width: 100%;
+        height: auto;
     }
 }
 </style>

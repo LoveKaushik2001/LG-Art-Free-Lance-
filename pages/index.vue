@@ -14,7 +14,7 @@
       <div class="about-content">
         <h2>About the Artist</h2>
         <p>
-          Lakshya Gora is a talented mixed media artist whose work combines the beauty of resin art with the expressive
+          Lakshya is a talented mixed media artist whose work combines the beauty of resin art with the expressive
           nature of painting.
           With a keen eye for detail and a passion for color, each piece is a masterpiece.
         </p>
