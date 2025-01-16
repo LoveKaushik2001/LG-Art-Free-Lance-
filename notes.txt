@@ -1,6 +1,7 @@
-Below Card Good Font of wedding invites
+Below Card Good Font of wedding invites - done (google fonts)
 color change and font update - font serif
+
 see similar items make it more heavy - color and font weight size
 redirecting links of each product towards insta page
-Description should be in array
-key value pair font difference
+Description should be in array - done
+key value pair font difference - done

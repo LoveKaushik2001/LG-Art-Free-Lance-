@@ -5,7 +5,6 @@
             <p>We'd love to hear your thoughts, queries, or feedback. Please share your contact details, and we'll get
                 back to you!</p>
 
-            <!-- Form to Leave a Comment -->
             <form @submit.prevent="submitForm" class="comment-form">
                 <div class="form-group">
                     <label for="name">Your Name:</label>
@@ -60,17 +59,17 @@ export default {
     },
     methods: {
         submitForm() {
-            // Call EmailJS service to send the form data
-            // const serviceID = 'service_wpj7f78';
-            const serviceID = 'gmail';
-            const templateID = 'your_template_id';
-            const userID = '1IqNR3RqDx9DxsAN3'; // Replace with your EmailJS User ID
+            const serviceID = 'service_s7fr5be';
+            const templateID = 'template_rgmxy2k';
+            const userID = '1IqNR3RqDx9DxsAN3';
 
             const templateParams = {
                 from_name: this.form.name,
                 from_email: this.form.email,
                 message: this.form.message,
                 whatsapp: this.form.whatsapp || 'Not Provided',
+                to_email: "lakshyagora412@gmail.com",
+                to_name: "Lakshya"
             };
 
             // Send email using EmailJS

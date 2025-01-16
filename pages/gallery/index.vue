@@ -59,6 +59,8 @@ export default {
     background-color: var(--secondary-background);
     border-radius: 10px;
     padding: 1rem;
+    text-decoration: none;
+    color: black;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }

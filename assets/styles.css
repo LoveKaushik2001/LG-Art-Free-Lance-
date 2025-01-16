@@ -1,7 +1,14 @@
 @import "@fortawesome/fontawesome-free/css/all.css";
-
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
 /* Global CSS variables */
 /* Root Color Variables */
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
 :root {
   /* beige */
   --secondary-background: #f5f5dc;
@@ -20,6 +27,6 @@
 
 /* Global styling for body */
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Caveat", serif;
   background-color: var(--primary-background);
 }

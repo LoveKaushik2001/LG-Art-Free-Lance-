@@ -26,7 +26,10 @@
 
             <div class="product-details">
                 <h1>{{ product.productName }}</h1>
-                <p>{{ product.description }}</p>
+                <div v-for="(desc, index) in product.description" :key="index">
+                    <p><strong>{{ desc.key }}: </strong>{{ desc.value }}</p>
+                    <span>{{ desc[1] }}</span>
+                </div>
                 <p><strong>Price:</strong> {{ product.price }}</p>
                 <button @click="redirectToWhatsApp" class="whatsapp-btn">
                     Buy on WhatsApp

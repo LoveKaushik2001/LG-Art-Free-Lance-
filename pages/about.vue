@@ -4,16 +4,16 @@
             <div class="about-text">
                 <h2>About Lakshya</h2>
                 <p>
-                    Lakshya Gora is a talented mixed media artist whose work explores the dynamic fusion of resin and
+                    Lakshya is a talented mixed media artist whose work explores the dynamic fusion of resin and
                     painting.
-                    His art is a reflection of his deep passion for color, texture, and creativity. Every piece tells a
+                    Her art is a reflection of her deep passion for color, texture, and creativity. Every piece tells a
                     story,
                     invoking emotions and creating a visual experience that leaves a lasting impact.
                 </p>
                 <p>
                     With a focus on intricate details and bold, expressive strokes, Lakshya’s work captures the harmony
                     between
-                    natural elements and artistic innovation. His pieces resonate with collectors, bringing timeless
+                    natural elements and artistic innovation. Her pieces resonate with collectors, bringing timeless
                     beauty into
                     homes and spaces across the globe.
                 </p>
@@ -24,7 +24,7 @@
                 </p>
             </div>
             <div class="about-image">
-                <img src="/images/profilePic.jpg" alt="Lakshya Gora" />
+                <img src="/images/profilePic.jpg" alt="Lakshya" />
             </div>
         </div>
         <NuxtLink to="/gallery" class="cta-button">Explore the Gallery</NuxtLink>

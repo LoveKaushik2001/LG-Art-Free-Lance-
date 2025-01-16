@@ -43,10 +43,11 @@
         <!-- Footer Bottom: Contact Info and Copyright -->
         <div class="footer-bottom">
             <div class="footer-contact">
-                <p>Email: <a href="mailto:Lakshyagora412@gmail.com">Lakshyagora412@gmail.com</a></p>
-                <p>Phone: <a href="tel:+918826190095">+918826190095</a></p>
+                <p><i class="fas fa-envelope"></i>&nbsp;Email: <a
+                        href="mailto:lakshyagora412@gmail.com">Lakshyagora412@gmail.com</a></p>
+                <p><i class="fas fa-phone-alt"></i>&nbsp;Phone: <a href="tel:+918826190095">+918826190095</a></p>
             </div>
-            <p>&copy; 2024 Lakshya Gora Art. All Rights Reserved.</p>
+            <p>&copy; 2025 Lakshya Art. All Rights Reserved.</p>
         </div>
     </footer>
 </template>
