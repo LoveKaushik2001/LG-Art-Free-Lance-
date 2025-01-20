@@ -2,6 +2,7 @@
   <div class="homepage">
     <!-- Hero Section -->
     <section class="hero">
+      <div class="carousel-background"></div>
       <div class="hero-content">
         <h1>Welcome to Art By Lakshya</h1>
         <p>Experience the fusion of resin and paint, creating timeless beauty.</p>
