@@ -54,16 +54,6 @@
         ]
       },
       {
-        "productId": "prod5",
-        "productName": "Natural Flower Invitation Card (White Look Variant)",
-        "description": [
-          { "key": "Size", "value": "12 X 9 inches" },
-          { "key": "Agate", "value": "Zig-Zag" }
-        ],
-        "price": "Rs. 3600",
-        "productImage": ["/images/wedCard/white-wed-card.jpg"]
-      },
-      {
         "productId": "prod6",
         "productName": "Natural Flower Invitation Card (Blue Look Variant)",
         "description": [
@@ -87,6 +77,68 @@
         ],
         "price": "Rs. 3700",
         "productImage": ["/images/wedCard/vintage-wed-card.jpg"]
+      },
+      {
+        "productId": "prod8",
+        "productName": "Invitation Card",
+        "description": [
+          { "key": "Size", "value": "12 X 9 inches" },
+          { "key": "Shape", "value": "Rectangle" },
+          { "key": "Stand", "value": "Inclusive" },
+          { "key": "*Note", "value": "Rs. 1000 Extra for decorated box" }
+        ],
+        "price": "Rs. 3600",
+        "productImage": [
+          "/images/wedCard/wedCard-1-1.jpeg",
+          "/images/wedCard/wedCard-1-2.jpeg"
+        ]
+      },
+      {
+        "productId": "prod9",
+        "productName": "Sahi Chitti",
+        "description": [
+          { "key": "Size", "value": "12 X 9 inches" },
+          { "key": "Shape", "value": "Rectangle" },
+          { "key": "Stand", "value": "Inclusive" },
+          { "key": "*Note", "value": "Rs. 1000 Extra for decorated box" }
+        ],
+        "price": "Rs. 3600",
+        "productImage": [
+          "/images/wedCard/wedCard-2-1.jpeg",
+          "/images/wedCard/wedCard-2-2.jpeg",
+          "/images/wedCard/wedCard-2-3.jpeg"
+        ]
+      },
+      {
+        "productId": "prod10",
+        "productName": "Natural Flower Invitation Card (White Look Variant)",
+        "description": [
+          { "key": "Size", "value": "12 X 9 inches" },
+          { "key": "Shape", "value": "Rectangle" },
+          { "key": "Stand", "value": "Inclusive" },
+          { "key": "*Note", "value": "Rs. 1000 Extra for decorated box" }
+        ],
+        "price": "Rs. 3600",
+        "productImage": [
+          "/images/wedCard/wedCard-3-1.jpeg",
+          "/images/wedCard/wedCard-3-2.jpeg",
+          "/images/wedCard/wedCard-3-3.jpeg"
+        ]
+      },
+      {
+        "productId": "prod11",
+        "productName": "Invitation Card",
+        "description": [
+          { "key": "Size", "value": "12 X 9 inches" },
+          { "key": "Shape", "value": "Rectangle" },
+          { "key": "Stand", "value": "Inclusive" },
+          { "key": "*Note", "value": "Rs. 1000 Extra for decorated box" }
+        ],
+        "price": "Rs. 3600",
+        "productImage": [
+          "/images/wedCard/wedCard-4-1.jpeg",
+          "/images/wedCard/wedCard-4-2.jpeg"
+        ]
       }
     ]
   },
@@ -255,21 +307,138 @@
         "productName": "Varmala Preservation",
         "description": [{ "key": "Size", "value": "8 inch" }],
         "price": "Rs. 4000",
-        "productImage": "/images/deepCasting/frame-7.jpeg"
+        "productImage": ["/images/deepCasting/frame-7.jpeg"]
       },
       {
         "productId": "prod8",
         "productName": "Varmala Preservation",
         "description": [{ "key": "Size", "value": "8 inch" }],
         "price": "Rs. 4000",
-        "productImage": "/images/deepCasting/frame-8.jpg"
+        "productImage": ["/images/deepCasting/frame-8.jpg"]
       },
       {
         "productId": "prod9",
         "productName": "Varmala Preservation",
         "description": [{ "key": "Size", "value": "8 inch" }],
         "price": "Rs. 2900",
-        "productImage": "/images/deepCasting/frame-9.jpeg"
+        "productImage": ["/images/deepCasting/frame-9.jpeg"]
+      },
+      {
+        "productId": "prod10",
+        "productName": "Heart Shaped Deep Cast Frame",
+        "description": [{ "key": "Size", "value": "8 inch heart" }],
+        "price": "Rs. 2900",
+        "productImage": ["/images/deepCasting/frame-10.jpeg"]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "category": "Gifting Resin Frames",
+    "mainTitle": "Gifting Resin Frames",
+    "thumbnailImage": "/images/resinFrames/frame-1-1.jpeg",
+    "displayProductId": "prod1",
+    "products": [
+      {
+        "productId": "prod1",
+        "productName": "Resin Gifting Frame",
+        "description": [{ "key": "Size", "value": "8 inch agate circle" }],
+        "price": "Rs. 2800",
+        "productImage": [
+          "/images/resinFrames/frame-1-1.jpeg",
+          "/images/resinFrames/frame-1-2.jpeg"
+        ]
+      },
+      {
+        "productId": "prod2",
+        "productName": "Resin Gifting Frame",
+        "description": [{ "key": "Size", "value": "8 inch agate circle" }],
+        "price": "Rs. 2800",
+        "productImage": [
+          "/images/resinFrames/frame-2-1.jpeg",
+          "/images/resinFrames/frame-1-2.jpeg"
+        ]
+      },
+      {
+        "productId": "prod3",
+        "productName": "Resin Gifting Frame",
+        "description": [
+          { "key": "Size", "value": "8 inch agate circle" },
+          {
+            "key": "Inclusive",
+            "value": "Stand or Hanging Chain as per choice"
+          }
+        ],
+        "price": "Rs. 2800",
+        "productImage": [
+          "/images/resinFrames/frame-3-1.jpeg",
+          "/images/resinFrames/frame-3-2.jpeg"
+        ]
+      },
+      {
+        "productId": "prod4",
+        "productName": "Hanging Circle with metal hoop and lighting",
+        "description": [
+          { "key": "Hanging Circle Size: ", "value": "8 inch" },
+          { "key": "Metal Hoop Size: ", "value": "10 inch" }
+        ],
+        "price": "Rs. 2800",
+        "productImage": [
+          "/images/resinFrames/frame-4-3.jpeg",
+          "/images/resinFrames/frame-4-4.jpeg",
+          "/images/resinFrames/frame-4-1.jpeg",
+          "/images/resinFrames/frame-4-2.jpeg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "category": "Resin Gifting Named Blocks",
+    "mainTitle": "Resin Gifting Named Blocks",
+    "thumbnailImage": "/images/giftingBlocks/block-1-1.jpeg",
+    "displayProductId": "prod1",
+    "products": [
+      {
+        "productId": "prod1",
+        "productName": "Custom Resin Letter",
+        "description": [{ "key": "Size", "value": "8 inch Wooden base" }],
+        "price": "Rs. 1800",
+        "productImage": [
+          "/images/giftingBlocks/block-1-1.jpeg",
+          "/images/giftingBlocks/block-1-2.jpeg",
+          "/images/giftingBlocks/block-1-3.jpeg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "category": "Fashionable Accessories",
+    "mainTitle": "Fashionable Accessories",
+    "thumbnailImage": "/images/wearables/item-1-1.jpeg",
+    "displayProductId": "prod1",
+    "products": [
+      {
+        "productId": "prod1",
+        "productName": "Vintage Jwellery",
+        "price": "Rs. 380",
+        "productImage": [
+          "/images/wearables/item-1-1.jpeg",
+          "/images/wearables/item-1-2.jpeg"
+        ]
+      },
+      {
+        "productId": "prod2",
+        "productName": "Resin Initial Keychain",
+        "price": "Rs. 280 per piece",
+        "productImage": ["/images/wearables/item-2-1.jpeg"]
+      },
+      {
+        "productId": "prod3",
+        "productName": "Resin Initial Keychain",
+        "price": "Rs. 280 per piece",
+        "productImage": ["/images/wearables/item-3-1.jpeg"]
       }
     ]
   }

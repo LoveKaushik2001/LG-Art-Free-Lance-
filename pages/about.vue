@@ -24,7 +24,7 @@
                 </p>
             </div>
             <div class="about-image">
-                <img src="/images/profilePic.jpg" alt="Lakshya" />
+                <img src="/images/profile.jpeg" alt="Lakshya" />
             </div>
         </div>
         <NuxtLink to="/gallery" class="cta-button">Explore the Gallery</NuxtLink>

@@ -44,8 +44,12 @@
                 <div class="similar-item" v-for="item in similarItems" :key="item.productId"
                     @click="updatePDP(item.productId)">
                     <div class="similar-item-card">
-                        <img :src="Array.isArray(item.productImage) ? item.productImage[0] : item.productImage"
-                            alt="Similar Product Image" />
+                        <div v-if="!item.loaded" class="skeleton-container">
+                            <div class="skeleton-image"></div>
+                        </div>
+                        <img v-show="item.loaded"
+                            :src="Array.isArray(item.productImage) ? item.productImage[0] : item.productImage"
+                            alt="Similar Product Image" @load="onImageLoad(item)" :class="{ 'loaded': item.loaded }" />
                         <div class="item-info">
                             <h3>{{ item.productName }}</h3>
                             <p>View detail</p>
@@ -78,9 +82,9 @@ export default {
         if (!this.product) {
             throw new Error("Product not found");
         }
-        this.similarItems = this.category.products.filter(
-            (item) => item.productId !== prodId
-        );
+        this.similarItems = this.category.products
+            .filter((item) => item.productId !== prodId)
+            .map((item) => ({ ...item, loaded: false }));
         this.images = Array.isArray(this.product.productImage)
             ? this.product.productImage
             : [this.product.productImage];
@@ -112,6 +116,9 @@ export default {
             } else {
                 this.currentIndex++;
             }
+        },
+        onImageLoad(item) {
+            item.loaded = true;
         }
     }
 };
