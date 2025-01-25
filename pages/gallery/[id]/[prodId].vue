@@ -8,7 +8,12 @@
                     <!-- Each image inside the slider -->
                     <template v-for="(image, index) in images">
                         <div class="carousel-item">
-                            <img :src="image" alt="Product Image" />
+                            <template v-if="isVideo(image)">
+                                <iframe :src="image" frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen class="media-item" alt="Product Video"></iframe>
+                            </template>
+                            <img v-else :src="image" alt="Product Image" />
                         </div>
                     </template>
                 </div>
@@ -90,6 +95,9 @@ export default {
             : [this.product.productImage];
     },
     methods: {
+        isVideo(media) {
+            return /\.(mp4|webm|ogg)$/i.test(media);
+        },
         updatePDP(newId) {
             this.product = this.similarItems.find(item => item.productId === newId);
             this.similarItems = this.category.products.filter(
@@ -165,6 +173,14 @@ export default {
     border-radius: 15px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+}
+
+/* This will style the iframe */
+.product-image iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
 
 .product-image img:hover {
@@ -351,7 +367,8 @@ export default {
         height: 35px;
     }
 
-    .product-image img {
+    .product-image img,
+    iframe {
         max-width: 100%;
         height: auto;
     }
