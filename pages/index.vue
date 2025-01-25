@@ -8,7 +8,8 @@
       <div class="hero-content">
         <div class="text-overlay">
           <h1>Welcome to Art By Lakshya</h1>
-          <p style="color: black;">Experience the fusion of resin and paint, creating timeless beauty.</p>
+          <p style="color: black; font-size: 1.3rem; font-weight: bold;">Experience the fusion of resin and paint,
+            creating timeless beauty.</p>
           <NuxtLink to="/gallery" class="cta-button">Explore the Gallery</NuxtLink>
         </div>
       </div>
@@ -128,7 +129,8 @@ body {
   font-size: 3.5rem;
   margin-bottom: 1rem;
   font-weight: bold;
-  color: var(--heading-color);
+  color: #ca9647;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   /* You can change the color of the text if you prefer */
 }
 
