@@ -10,7 +10,6 @@ export default {
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "title", property: "title", content: "ArtByLakshya" },
       { hid: "description", name: "description", content: "" },
-      { hid: "image", property: "image", content: "/images/home.png" },
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],

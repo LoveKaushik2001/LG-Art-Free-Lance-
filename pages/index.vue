@@ -2,11 +2,15 @@
   <div class="homepage">
     <!-- Hero Section -->
     <section class="hero">
-      <div class="carousel-background"></div>
+      <div class="carousel-background">
+        <!-- The background image will go here -->
+      </div>
       <div class="hero-content">
-        <h1>Welcome to Art By Lakshya</h1>
-        <p>Experience the fusion of resin and paint, creating timeless beauty.</p>
-        <NuxtLink to="/gallery" class="cta-button">Explore the Gallery</NuxtLink>
+        <div class="text-overlay">
+          <h1>Welcome to Art By Lakshya</h1>
+          <p style="color: black;">Experience the fusion of resin and paint, creating timeless beauty.</p>
+          <NuxtLink to="/gallery" class="cta-button">Explore the Gallery</NuxtLink>
+        </div>
       </div>
     </section>
 
@@ -87,28 +91,49 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(135deg, var(--secondary-background), var(--primary-background));
-  color: var(--text-color);
+  position: relative;
+  height: 100vh;
+  background-image: url('/images/home.jpeg');
+  /* Your image here */
+  background-size: contain;
+  background-position: center center;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  text-align: center;
-  position: relative;
+  color: white;
 }
 
 .hero-content {
-  max-width: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text-overlay {
+  background-color: rgba(255, 255, 255, 0.7);
+  /* White semi-transparent background */
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  max-width: 80%;
 }
 
 .hero h1 {
-  font-size: 3rem;
-  margin-bottom: 0.5rem;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
   font-weight: bold;
+  color: var(--heading-color);
+  /* You can change the color of the text if you prefer */
 }
 
 .hero p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin-bottom: 1.5rem;
 }
 
@@ -233,5 +258,18 @@ body {
 
 .contact-buttons a:hover {
   background-color: var(--cta-hover-color);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    background-size: contain;
+    /* Ensures the whole image is visible on smaller screens */
+    background-position: center center;
+  }
+
+  .text-overlay {
+    max-width: 90%;
+    /* Make sure text is not too large on mobile */
+  }
 }
 </style>
