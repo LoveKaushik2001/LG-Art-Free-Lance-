@@ -11,7 +11,11 @@
         "productName": "3D Flower Invitation Card (Pink Variant)",
         "description": [
           { "key": "Size", "value": "12 X 9 inches" },
-          { "key": "Agate", "value": "Zig-Zag" }
+          { "key": "Agate", "value": "Zig-Zag" },
+          { "key": "Making Time", "value": "5-7 working days" },
+          { "key": "Delivery Charges", "value": "Depends on your drop point" },
+          { "key": "Stand Price (optional)", "value": "Rs. 200 Extra" },
+          { "key": "Decorated Box (optional)", "value": "Rs. 1200 Extra" }
         ],
         "price": "Rs. 3900",
         "productImage": ["/images/wedCard/pink-wed-card.jpg"]
@@ -21,7 +25,11 @@
         "productName": "3D Flower Invitation Card (Aqua Variant)",
         "description": [
           { "key": "Size", "value": "12 X 9 inches" },
-          { "key": "Agate", "value": "Zig-Zag" }
+          { "key": "Agate", "value": "Zig-Zag" },
+          { "key": "Making Time", "value": "5-7 working days" },
+          { "key": "Delivery Charges", "value": "Depends on your drop point" },
+          { "key": "Stand Price (optional)", "value": "Rs. 200 Extra" },
+          { "key": "Decorated Box (optional)", "value": "Rs. 1200 Extra" }
         ],
         "price": "Rs. 3900",
         "productImage": ["/images/wedCard/aqua-wed-card.jpg"]
@@ -34,7 +42,11 @@
             "key": "Size",
             "value": "12 X 9 inches"
           },
-          { "key": "Agate", "value": "Zig-Zag" }
+          { "key": "Agate", "value": "Zig-Zag" },
+          { "key": "Making Time", "value": "5-7 working days" },
+          { "key": "Delivery Charges", "value": "Depends on your drop point" },
+          { "key": "Stand Price (optional)", "value": "Rs. 200 Extra" },
+          { "key": "Decorated Box (optional)", "value": "Rs. 1200 Extra" }
         ],
         "price": "Rs. 3900",
         "productImage": ["/images/wedCard/red-wed-card.jpg"]
@@ -58,7 +70,11 @@
         "productName": "Natural Flower Invitation Card (Blue Look Variant)",
         "description": [
           { "key": "Size", "value": "12X9 inches" },
-          { "key": "Agate", "value": "Zig-Zag" }
+          { "key": "Agate", "value": "Zig-Zag" },
+          { "key": "Making Time", "value": "5-7 working days" },
+          { "key": "Delivery Charges", "value": "Depends on your drop point" },
+          { "key": "Stand Price (optional)", "value": "Rs. 200 Extra" },
+          { "key": "Decorated Box (optional)", "value": "Rs. 1200 Extra" }
         ],
         "price": "Rs. 3600",
         "productImage": [
@@ -84,8 +100,10 @@
         "description": [
           { "key": "Size", "value": "12 X 9 inches" },
           { "key": "Shape", "value": "Rectangle" },
-          { "key": "Stand", "value": "Inclusive" },
-          { "key": "*Note", "value": "Rs. 1000 Extra for decorated box" }
+          { "key": "Making Time", "value": "5-7 working days" },
+          { "key": "Delivery Charges", "value": "Depends on your drop point" },
+          { "key": "Stand Price (optional)", "value": "Rs. 200 Extra" },
+          { "key": "Decorated Box (optional)", "value": "Rs. 1200 Extra" }
         ],
         "price": "Rs. 3600",
         "productImage": [
@@ -100,8 +118,10 @@
         "description": [
           { "key": "Size", "value": "12 X 9 inches" },
           { "key": "Shape", "value": "Rectangle" },
-          { "key": "Stand", "value": "Inclusive" },
-          { "key": "*Note", "value": "Rs. 1000 Extra for decorated box" }
+          { "key": "Making Time", "value": "5-7 working days" },
+          { "key": "Delivery Charges", "value": "Depends on your drop point" },
+          { "key": "Stand Price (optional)", "value": "Rs. 200 Extra" },
+          { "key": "Decorated Box (optional)", "value": "Rs. 1200 Extra" }
         ],
         "price": "Rs. 3900",
         "productImage": [
@@ -116,8 +136,10 @@
         "description": [
           { "key": "Size", "value": "12 X 9 inches" },
           { "key": "Shape", "value": "Rectangle" },
-          { "key": "Stand", "value": "Inclusive" },
-          { "key": "*Note", "value": "Rs. 1000 Extra for decorated box" }
+          { "key": "Making Time", "value": "5-7 working days" },
+          { "key": "Delivery Charges", "value": "Depends on your drop point" },
+          { "key": "Stand Price (optional)", "value": "Rs. 200 Extra" },
+          { "key": "Decorated Box (optional)", "value": "Rs. 1200 Extra" }
         ],
         "price": "Rs. 3600",
         "productImage": [
@@ -132,8 +154,10 @@
         "description": [
           { "key": "Size", "value": "12 X 9 inches" },
           { "key": "Shape", "value": "Rectangle" },
-          { "key": "Stand", "value": "Inclusive" },
-          { "key": "*Note", "value": "Rs. 1000 Extra for decorated box" }
+          { "key": "Making Time", "value": "5-7 working days" },
+          { "key": "Delivery Charges", "value": "Depends on your drop point" },
+          { "key": "Stand Price (optional)", "value": "Rs. 200 Extra" },
+          { "key": "Decorated Box (optional)", "value": "Rs. 1200 Extra" }
         ],
         "price": "Rs. 3900",
         "productImage": [
