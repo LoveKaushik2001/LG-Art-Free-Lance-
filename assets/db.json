@@ -166,6 +166,42 @@
           "/images/wedCard/wedCard-4-3.mp4",
           "/images/wedCard/wedCard-4-4.mp4"
         ]
+      },
+      {
+        "productId": "prod12",
+        "productName": "Invitation Card",
+        "description": [
+          { "key": "Size", "value": "12 X 9 inches" },
+          { "key": "Shape", "value": "Rectangle" },
+          { "key": "Making Time", "value": "5-7 working days" },
+          { "key": "Delivery Charges", "value": "Depends on your drop point" },
+          { "key": "Stand Price (optional)", "value": "Rs. 200 Extra" },
+          { "key": "Decorated Box (optional)", "value": "Rs. 1200 Extra" }
+        ],
+        "price": "Rs. 3600",
+        "productImage": [
+          "/images/wedCard/wedCard-5-4.jpeg",
+          "/images/wedCard/wedCard-5-1.jpeg",
+          "/images/wedCard/wedCard-5-2.mp4",
+          "/images/wedCard/wedCard-5-3.mp4"
+        ]
+      },
+      {
+        "productId": "prod13",
+        "productName": "Invitation Card",
+        "description": [
+          { "key": "Size", "value": "12 X 9 inches" },
+          { "key": "Shape", "value": "Rectangle" },
+          { "key": "Making Time", "value": "5-7 working days" },
+          { "key": "Delivery Charges", "value": "Depends on your drop point" },
+          { "key": "Stand Price (optional)", "value": "Rs. 200 Extra" },
+          { "key": "Decorated Box (optional)", "value": "Rs. 1200 Extra" }
+        ],
+        "price": "Rs. 3900",
+        "productImage": [
+          "/images/wedCard/wedCard-6-1.jpeg",
+          "/images/wedCard/wedCard-6-2.mp4"
+        ]
       }
     ]
   },
@@ -356,6 +392,16 @@
         "description": [{ "key": "Size", "value": "8 inch heart" }],
         "price": "Rs. 2900",
         "productImage": ["/images/deepCasting/frame-10.jpeg"]
+      },
+      {
+        "productId": "prod11",
+        "productName": "Deep Cast work with flowers",
+        "description": [
+          { "key": "Size", "value": "16 inch circle" },
+          { "key": "Thickness", "value": "10-15 mm" }
+        ],
+        "price": "Rs. 6000",
+        "productImage": ["/images/deepCasting/frame-11.jpeg"]
       }
     ]
   },
@@ -417,6 +463,32 @@
           "/images/resinFrames/frame-4-2.jpeg",
           "/images/resinFrames/frame-4-5.mp4"
         ]
+      },
+      {
+        "productId": "prod5",
+        "productName": "10 inch circle with 3D Flowers",
+        "description": [{ "key": "Circle Size: ", "value": "10 inch" }],
+        "price": "Rs. 3200",
+        "productImage": [
+          "/images/resinFrames/frame-5-1.jpeg",
+          "/images/resinFrames/frame-5-2.jpeg",
+          "/images/resinFrames/frame-5-3.jpeg",
+          "/images/resinFrames/frame-5-4.mp4"
+        ]
+      },
+      {
+        "productId": "prod6",
+        "productName": "Hanging Gifting Frame",
+        "description": [{ "key": "Hanging Circle Size: ", "value": "8 inch" }],
+        "price": "Rs. 2900",
+        "productImage": ["/images/resinFrames/frame-6-1.jpeg"]
+      },
+      {
+        "productId": "prod7",
+        "productName": "Resin Gifting Frame",
+        "description": [{ "key": "Hanging Circle Size: ", "value": "8 inch" }],
+        "price": "Rs. 2900",
+        "productImage": ["/images/resinFrames/frame-7-1.jpeg"]
       }
     ]
   },
@@ -468,6 +540,44 @@
         "productName": "Resin Initial Keychain",
         "price": "Rs. 280 per piece",
         "productImage": ["/images/wearables/item-3-1.jpeg"]
+      },
+      {
+        "productId": "prod4",
+        "productName": "Vintage Bookmark",
+        "price": "Rs. 350 per piece",
+        "productImage": [
+          "/images/wearables/item-4-1.jpeg",
+          "/images/wearables/item-4-2.jpeg"
+        ]
+      },
+      {
+        "productId": "prod5",
+        "productName": "Guru Ji car hanging",
+        "price": "Rs. 400 per piece",
+        "description": [{ "key": "Size", "value": "3.3 inch" }],
+        "productImage": [
+          "/images/wearables/item-5-1.mp4",
+          "/images/wearables/item-5-2.mp4"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "category": "Others",
+    "mainTitle": "Others",
+    "thumbnailImage": "/images/others/item-1-1.jpeg",
+    "displayProductId": "prod1",
+    "products": [
+      {
+        "productId": "prod1",
+        "productName": "Engagement tray with ring holder",
+        "price": "Rs. 3000",
+        "productImage": [
+          "/images/others/item-1-1.jpeg",
+          "/images/others/item-1-2.jpeg",
+          "/images/others/item-1-3.jpeg"
+        ]
       }
     ]
   }
